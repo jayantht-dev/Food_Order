@@ -1,7 +1,7 @@
 import java.util.*;
-public class Hungrito {
+public class Hungrito_Food_Order {
 	static Scanner sc = new Scanner(System.in);
-	public static void main(String[] args)throws Exception {
+	public static void main(String[] args) throws Exception{
 		System.out.println("\t**Welcome to Hungrito**");
 		System.out.println("----------------------------------------");
 		System.out.println("Select the Restaurant");
@@ -69,7 +69,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -89,6 +89,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -136,7 +138,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -156,6 +158,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -205,7 +209,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -225,6 +229,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -272,7 +278,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -292,6 +298,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -339,7 +347,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -359,6 +367,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -428,7 +438,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tPAYMENT FAILED...Invalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						//OTP generation
 						int sys_otp = (int)(Math.random()*9999+9999);
@@ -449,6 +459,8 @@ public class Hungrito {
 							System.out.println("\n\tPAYMENT FAILED...Invalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -496,7 +508,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -516,6 +528,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -565,7 +579,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -585,6 +599,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -632,7 +648,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -652,6 +668,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -699,7 +717,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -719,6 +737,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -789,7 +809,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tPAYMENT FAILED...Invalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						//OTP generation
 						int sys_otp = (int)(Math.random()*9999+9999);
@@ -810,6 +830,8 @@ public class Hungrito {
 							System.out.println("\n\tPAYMENT FAILED...Invalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -857,7 +879,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -877,6 +899,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -926,7 +950,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -946,6 +970,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -993,7 +1019,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -1013,6 +1039,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1060,7 +1088,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -1080,6 +1108,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1151,7 +1181,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tPAYMENT FAILED...Invalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						//OTP generation
 						int sys_otp = (int)(Math.random()*9999+9999);
@@ -1172,6 +1202,8 @@ public class Hungrito {
 							System.out.println("\n\tPAYMENT FAILED...Invalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1219,7 +1251,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -1239,6 +1271,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1288,7 +1322,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -1308,6 +1342,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1355,7 +1391,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -1375,6 +1411,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1422,7 +1460,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2) {
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -1442,6 +1480,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1513,7 +1553,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tPAYMENT FAILED...Invalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						//OTP generation
 						int sys_otp = (int)(Math.random()*9999+9999);
@@ -1534,6 +1574,8 @@ public class Hungrito {
 							System.out.println("\n\tPAYMENT FAILED...Invalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1581,7 +1623,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -1601,6 +1643,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1650,7 +1694,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -1670,6 +1714,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1717,7 +1763,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -1737,6 +1783,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
@@ -1784,7 +1832,7 @@ public class Hungrito {
 						}else {
 							System.out.println("\n\tInvalid OTP");
 						}
-					}else {
+					}else if(payment_selection==2){
 						System.out.println("\n**Phone-Pay**");
 						int sys_otp = (int)(Math.random()*9999+9999);
 						System.out.print("OTP - " + sys_otp);
@@ -1804,6 +1852,8 @@ public class Hungrito {
 							System.out.println("\n\tInvalid OTP");
 						}
 					}
+					else
+						System.out.println("\tInvalid Selection!");
 				}
 				else {
 					System.out.println("\n\tThanks for Visiting!");
