@@ -41,3 +41,10 @@ Hungrito is a simple command-line food ordering application developed in Java. I
    cd hungrito-food-order
    javac Hungrito_Food_Order.java
    java Hungrito_Food_Order
+
+## 🙋‍♂ Author
+
+*Jayanth T*  
+📧 jayantht68@gmail.com  
+📍 Chennai, India  
+🔗 [LinkedIn](https://www.linkedin.com/in/jayanth-t-j7604)
